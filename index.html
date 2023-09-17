@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <img class="slide" src="images/slides/slide-1.jpg" alt="slide">
+    <div class="search-wrapper">
+        <div class="search">
+            <input type="search" name="search" id="search" placeholder="Search Blogs" data-search>
+        </div>
+        <div class="blog-cards" data-blog-cards-container>
+            <!-- to be filled in via JS -->
+        </div>
+    </div>
+    <div class="nav-bar-container">
+        <nav id="nav-bar">
+            <h1 class="logo">BLOGS</h1>
+            <div class="search-container">
+                <button class="search-icon-button">
+                    <img class="search-icon" src="images/icons/search_icon.png" alt="Search">
+                </button>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <div class="header-blog">
+            <span class="featured">FEATURED</span>
+            <div class="title">Pixar Used AI to Stoke Elemental's Flame</div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Officia tempora quae voluptate voluptatibus 
+                explicabo ipsam ipsum, repellendus nisi maxime optio...</div>
+            <a href="https://www.wired.com/story/pixar-elemental-artificial-intelligence-flames/" class="read-more">Read More</a>
+        </div>
+    </header> 
+    <main>
+        <div class="main-nav">
+            <button class="main-nav-button news-button" data-active>
+                NEWS
+            </button>
+            <button class="main-nav-button updates-button" >
+                UPDATES
+            </button>
+            <button class="main-nav-button jobs-button">
+                JOBS
+            </button>
+        </div>
+        <div class="main-body-container">
+            <section class="main-body news-body" data-body>
+                <a href="https://www.wired.com/story/ai-hype-cycle-burnout/" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/This-Is-the-Worst-Part-of-the-AI-Hype-Cycle-Culture.webp" alt="blog_image">
+                    <h3>This Is the Worst Part of the AI Hype Cycle</h3>
+                    <p>Feeling hype burnout? You're not alone. </p>
+                </a>
+                <a href="https://www.wired.com/story/hualan-encryption-chips-entity-list-china/#intcid=_wired-verso-hp-trending_0f28043b-97af-46ef-8eec-4e849a307f64_popular4-1" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/chinese.png" alt="blog_image">
+                    <h3>A Shady Chinese Firm's Encryption Chips Got Inside the Navy and NASA</h3>
+                    <p>The US government warns encryption chipmaker Hualan has suspicious ties to China's military. Yet US agencies still use one of its subsidiary's chips, raising fears of a backdoor.. </p>
+                </a>
+                <a href="https://www.wired.com/story/pixar-elemental-artificial-intelligence-flames/" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/pixar.png" alt="blog_image">
+                    <h3>Pixar Used AI to Stoke Elemental's Flame</h3>
+                    <p>It's harder to make fire than you might think. But the Pixar team was determined to do the impossible. </p>
+                </a>
+                <a href="https://www.vox.com/technology/2023/6/5/23750064/apple-vision-pro-goggles-wwdc-2023-spatial-computing-peter-kafka" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/apple-goggles.webp" alt="blog_image">
+                    <h3>Who wants to pay $3,500 for Apple's new goggles?</h3>
+                    <p>We know what the Vision Pro does, but we're still wondering why you would buy it. Apple seems confused, too. </p>
+                </a>
+                <a href="https://www.vox.com/technology/2023/5/24/23735940/elon-musk-ron-desantis-twitter-tucker-carlson-2024-election" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/elon.webp" alt="blog_image">
+                    <h3>Elon Musk tried a big presidential broadcast event and Twitter broke</h3>
+                    <p>The glitchy Ron DeSantis interview is the latest milestone in Twitter’s shift to the right.. </p>
+                </a>
+                <a href="https://www.vox.com/technology/2023/5/11/23717408/ai-dc-laws-congress-google-microsoft" class="section-item">
+                    <img class="blog-featured-image" src="images/blog_features/count-on-gov-ai.webp" alt="blog_image">
+                    <h3>Can we count on the government to do something about AI?</h3>
+                    <p>Big Tech moves fast. DC doesn't. </p>
+                </a>
+            </section>
+            <section class="main-body updates-body">
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/chinese.png" alt="blog_image"> -->
+                    <h3>Update 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum amet suscipit deleniti accusantium ab, harum aliquid voluptate labore sunt fuga.</p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/pixar.png" alt="blog_image"> -->
+                    <h3>Update 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, voluptatibus nulla. Tempore esse doloremque optio perspiciatis praesentium omnis eum hic!</p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/apple-goggles.webp" alt="blog_image"> -->
+                    <h3>Update 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis adipisci dolorem nulla expedita eveniet fuga officia sequi similique aut!</p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/elon.webp" alt="blog_image"> -->
+                    <h3>Update 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut architecto blanditiis explicabo commodi laboriosam dolorum ullam doloremque, natus harum culpa.</p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/count-on-gov-ai.webp" alt="blog_image"> -->
+                    <h3>Update 5</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vero! Atque corporis possimus excepturi fuga ullam ut ex ipsam incidunt. </p>
+                </div>
+            </section>
+            <section class="main-body jobs-body">
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/pixar.png" alt="blog_image"> -->
+                    <h3>Marketing Coordinator</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, earum? </p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/apple-goggles.webp" alt="blog_image"> -->
+                    <h3>Web Designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, earum? </p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/elon.webp" alt="blog_image"> -->
+                    <h3>Project Manager</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, earum? </p>
+                </div>
+                <div class="section-item">
+                    <!-- <img class="blog-featured-image" src="images/blog_features/count-on-gov-ai.webp" alt="blog_image"> -->
+                    <h3>Account Executive</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, earum? </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-sections-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione sint optio quaerat, ab fugiat illo nam quam doloremque dolore modi.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>XXXXXXXXX</p>
+                <p>XXXXXXXXX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Address</h4>
+                <p>Build No. 1,</p>
+                <p>123 Street</p>
+                <p>XYZ City</p>
+            </div>
+        </div>
+    </footer>
+
+    <template data-blog-card-template>
+            <a class="card" href="">
+                <div class="blog-title" data-blog-title></div>
+            </a>
+    </template>
+</body>
+</html>
